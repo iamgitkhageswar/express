@@ -3,7 +3,7 @@ const dotenv=require("dotenv").config()
 const app =express()
 const errorHandler=require("./middleware/errorHandler")
 const connectionDb = require("./config/dbconnection")
-const port=process.env.PORT || 5000
+const port=process.env.PORT || 8000
 
 
 connectionDb()
